@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f0e9">
+  <meta name="description" content="anti.depress.ant — личное визуальное пространство о мыслях, целях, историях и моментах.">
+  <title>anti.depress.ant — личное пространство</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@400;500;600;700&family=Playfair+Disсмотреть:ital,wght@0,500;1,500&family=Caveat:wght@500;600&disсмотреть=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="preloader" aria-hidden="true">
+    <div class="preloader__inner">
+      <span class="preloader__brand">anti.depress.ant</span>
+      <span class="preloader__percent">0</span>
+    </div>
+    <div class="preloader__line"><span></span></div>
+  </div>
+
+  <div class="cursor" aria-hidden="true"><span></span></div>
+  <div class="cursor cursor--label" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#главная" data-cursor="HOME">anti.depress.ant</a>
+    <nav class="desktop-nav" aria-label="Primary навигация">
+      <a href="#about">About</a>
+      <a href="#мысли">Thoughts</a>
+      <a href="#цели">Goals</a>
+      <a href="#story">My Story</a>
+      <a href="#моменты">Moments</a>
+      <a href="#instagram">Instagram</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <div class="mobile-menu" aria-hidden="true">
+    <div class="mobile-menu__top"><span>навигация</span><span> </span></div>
+    <nav>
+      <a href="#about"><small>01</small>About me</a>
+      <a href="#мысли"><small>02</small>Thoughts</a>
+      <a href="#цели"><small>03</small>Goals</a>
+      <a href="#story"><small>04</small>My story</a>
+      <a href="#моменты"><small>05</small>Moments</a>
+      <a href="#instagram"><small>06</small>Instagram</a>
+      <a href="#contact"><small>07</small>Contact</a>
+    </nav>
+    <div class="mobile-menu__footer">немного piece of my world</div>
+  </div>
+
+  <main id="главная">
+    <section class="hero">
+      <video class="hero__video" autoсмотреть muted loop смотретьsinline preload="metadata" poster="assets/images/hero-poster.jpg">
+        <source src="assets/video/hero.mp4" type="video/mp4">
+      </video>
+      <div class="hero__shade"></div>
+      <div class="hero__grain"></div>
+
+      <div class="hero__top">
+        <span>личная страница · 2026</span>
+        <span class="hero__location">моя мечта</span>
+      </div>
+
+      <div class="hero__center">
+        <p class="eyebrow">добро пожаловать в мой мир</p>
+        <h1>anti.<em>depress.</em>ant</h1>
+        <p class="hero__quote">“Я хочу просто продолжать разлагаться<br> марально в этом бесконечном потоке прикольных рилсов.”</p>
+        <a class="magnetic-btn magnetic-btn--light" href="https://www.instagram.com/anti.depress.ant/" target="_blank" rel="noоткрытьer" data-cursor="OPEN">
+          <span>INSTAGRAM</span><span>↗</span>
+        </a>
+      </div>
+
+      <div class="hero__bottom">
+        <span>листай вниз</span>
+        <span class="scroll-line"></span>
+        <span> </span>
+      </div>
+    </section>
+
+    <section class="intro section-pad" id="about">
+      <div class="section-kicker"><span> </span><span> </span></div>
+      <div class="intro__grid">
+        <div class="intro__title reveal">
+          <span class="script">немного</span>
+          <h2>обо<br><i>мне.</i></h2>
+        </div>
+        <div class="intro__copy reveal">
+          <p class="lead">Хэлоу! Я Даша, мне 29 и я переехала на эту страницу, где начала всё с нуля, буду рада твоему присутствию здесь!</p>
+          <p class="signature">anti <span>♡</span></p>
+        </div>
+      </div>
+      <div class="about-image-wrap reveal">
+        <div class="about-image media-placeholder" data-label="ваш портрет / фото">
+          <img src="assets/images/about.jpg" alt="Portrait of anti.depress.ant" loading="lazy">
+        </div>
+        <div class="about-note">мягкое сердце.<br>сильный характер.<br>модельная внешность.</div>
+      </div>
+    </section>
+
+    <section class="мысли section-pad" id="мысли">
+      <div class="section-kicker"><span> </span><span> </span></div>
+      <div class="section-heading reveal">
+        <span class="script">то, о чём я думаю</span>
+        <h2>мысли<br><i>out loud.</i></h2>
+      </div>
+
+      <div class="thought-list">
+        <article class="thought reveal">
+          <div class="thought__meta"><span>01</span><span>01:24</span></div>
+          <div class="thought__media media-placeholder">
+            <video loop playsinline preload="metadata">
+              <source src="assets/video/thought-01.mp4" type="video/mp4">
+            </video>
+            <span class="media-fallback"> </span>
+            <button class="play-btn" aria-label="Play video">смотреть</button>
+          </div>
+          <div class="thought__caption"><h3>учусь отпускать</h3><p>иногда что-то уходит раньше, чем мы готовы отпустить.</p></div>
+        </article>
+
+        <article class="thought thought--offset reveal">
+          <div class="thought__meta"><span>02</span><span>02:08</span></div>
+          <div class="thought__media media-placeholder">
+            <video loop playsinline preload="metadata">
+              <source src="assets/video/thought-02.mp4" type="video/mp4">
+            </video>
+            <span class="media-fallback"> </span>
+            <button class="play-btn" aria-label="Play video">смотреть</button>
+          </div>
+          <div class="thought__caption"><h3>то, чего я никогда не говорю</h3><p>возможно, у тишины тоже есть свой язык.</p></div>
+        </article>
+
+        <article class="thought reveal">
+          <div class="thought__meta"><span>03</span><span>00:58</span></div>
+          <div class="thought__media media-placeholder">
+            <video loop playsinline preload="metadata">
+              <source src="assets/video/thought-03.mp4" type="video/mp4">
+            </video>
+            <span class="media-fallback"> </span>
+            <button class="play-btn" aria-label="Play video">смотреть</button>
+          </div>
+          <div class="thought__caption"><h3>становлюсь той, кто мне нравится</h3><p>не идеальной. просто немного больше собой.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="цели section-pad" id="цели">
+      <div class="section-kicker"><span> </span><span> </span></div>
+      <div class="цели__intro reveal">
+        <span class="script">это не список дел</span>
+        <h2>то, кем<br><i>стоит стать.</i></h2>
+      </div>
+      <div class="цели__list">
+        <div class="goal reveal"><span>01</span><h3>увидеть больше этого мира</h3><em>путешествия</em></div>
+        <div class="goal reveal"><span>02</span><h3>создать то, чем будут гордиться</h3><em>создавать</em></div>
+        <div class="goal reveal"><span>03</span><h3>выбирать себя без чувства вины</h3><em>расти</em></div>
+      </div>
+    </section>
+
+    <section class="story section-pad" id="story">
+      <div class="section-kicker"><span> </span><span> </span></div>
+      <div class="story__hero reveal">
+        <div class="story__image media-placeholder">
+          <img src="assets/images/story.jpg" alt="Lifestyle image" loading="lazy">
+        </div>
+        <div class="story__overlay">
+          <span class="script">я всё ещё её пишу</span>
+          <h2>my<br><i>story.</i></h2>
+        </div>
+      </div>
+      <div class="story__text reveal">
+        <p class="dropcap">Мне кажется, жизнь не столько о том, чтобы точно знать, куда ты идёшь, сколько о том, чтобы замечать, кем ты становишься по дороге.</p>
+        <p>Есть главы, к которым я никогда не захочу вернуться, и моменты, которые хочется сохранить навсегда. Эта страница — о них обо всех: красивых, сложных и настоящих.</p>
+      </div>
+    </section>
+
+    <section class="моменты section-pad" id="моменты">
+      <div class="section-kicker"><span> </span><span> </span></div>
+      <div class="моменты__heading reveal">
+        <span class="script">маленькие вещи, которые хочется запомнить</span>
+        <h2>моменты<br><i>in between.</i></h2>
+      </div>
+
+      <div class="masonry">
+        <figure class="moment moment--one reveal"><img src="assets/images/moment-01.jpg" alt="Moment 01" loading="lazy"><figcaption>модельные фото</figcaption></figure>
+        <figure class="moment moment--two reveal"><img src="assets/images/moment-02.jpg" alt="Moment 02" loading="lazy"><figcaption>на домашнем</figcaption></figure>
+        <figure class="moment moment--three reveal"><video muted loop autoсмотреть смотретьsinline preload=" "><source src="assets/video/moment-01.mp4" type="video/mp4"></video><figcaption>движение сквозь жизнь</figcaption></figure>
+        <figure class="moment moment--four reveal"><img src="assets/images/moment-03.jpg" alt="Moment 03" loading="lazy"><figcaption>маленькие детали</figcaption></figure>
+        <figure class="moment moment--five reveal"><img src="assets/images/moment-04.jpg" alt="Moment 04" loading="lazy"><figcaption>красивая я</figcaption></figure>
+        <figure class="moment moment--six reveal"><video muted loop autoсмотреть смотретьsinline preload=" "><source src="assets/video/moment-02.mp4" type="video/mp4"></video><figcaption>немного депрессии</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="instagram section-pad" id="instagram">
+      <div class="instagram__inner reveal">
+        <span class="script">я в инстаграм</span>
+        <h2>@anti.<i>depress.</i>ant</h2>
+        <p>more photos, more мыслей, more of the everyday.</p>
+        <a class="magnetic-btn magnetic-btn--dark" href="https://www.instagram.com/anti.depress.ant/" target="_blank" rel="noоткрытьer" data-cursor="OPEN">
+          <span>открыть Instagram</span><span>↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="contact section-pad" id="contact">
+      <div class="section-kicker"><span> </span><span> </span></div>
+      <div class="contact__content reveal">
+        <span class="script">давай знакомиться</span>
+        <h2>давай говорить<br><i>о жизни.</i></h2>
+        <a class="contact__link" href="https://www.instagram.com/anti.depress.ant/" target="_blank" rel="noоткрытьer">Instagram ↗</a>
+      </div>
+      <div class="contact__bottom"><span>anti.depress.ant</span><span>made with love</span><span>© 2026</span></div>
+    </section>
+  </main>
+
+  <button class="sound-control" aria-label="Toggle sound"><span class="sound-icon">♫</span><span class="sound-text">звук выкл.</span><i class="sound-bars"><b></b><b></b><b></b></i></button>
+  <audio id="bgMusic" loop preload="none"><source src="assets/audio/music.mp3" type="audio/mpeg"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
